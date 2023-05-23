@@ -1,0 +1,26 @@
+set hidden true
+set ignorecase true
+
+cmd mkdir ${{
+	printf "Directory Name: "
+	read ans
+	mkdir $ans
+}}
+
+map d
+map m
+
+map . set hidden!
+map p paste
+map x cut
+map y copy
+map <enter> open
+map R reload
+map mf mkfile
+map md mkdir
+
+map gD cd ~/Documents
+map gd cd ~/Downloads
+map gp cd ~/Pictures
+map gc cd ~/.config
+map gs cd ~/.local/bin
