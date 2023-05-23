@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# settings for common commands
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -vI"
+alias bc="bc -ql"
+alias mkd="mkdir -pv"
+alias ls="exa --icons --group-directories-first"
+alias locate="plocate"
+alias cat="bat"
+alias grep="grep --color=always"
+
+# application aliases
+alias v="$EDITOR"
+alias vw="$EDITOR ~/Documents/vimwiki/index.md"
+alias vim="$EDITOR"
+alias p="pikaur"
+
+# git aliases
+alias g="git"
+alias gcl="git clone"
